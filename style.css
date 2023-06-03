@@ -3,3 +3,56 @@ body {
   height: 100%;
   margin: 0;
 }
+header,h1{
+  align-content: center;
+  text-align: center;
+}
+figcaption{
+  text-align: center;
+}
+#featured-property {
+  text-align: center;
+}
+
+#featured-property figure {
+  display: inline-block;
+  text-align: left;
+}
+
+#featured-property figure img,
+#featured-property figure figcaption {
+  display: block;
+  margin: 0 auto;
+}
+/* Jazz up navigation links */
+nav a {
+  padding: 10px;
+  background-color: grey;
+}
+
+/* Update image caption */
+figure figcaption {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Update text block */
+#featured-property p {
+  width: 800px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+/* Make details section horizontal */
+#details div {
+  float: left;
+  width: 25%;
+}
+
+/* Finishing touch for bottom divs */
+#details div {
+  background-color: grey;
+  text-align: center;
+  width: 25%;
+}
+
